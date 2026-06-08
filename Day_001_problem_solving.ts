@@ -29,7 +29,7 @@ const checkEven = (num: number): string => {
   if (num % 2 === 0) return "trueInput";
   return "false";
 };
-console.log(checkEven(5)); // Output: false
+console.log(checkEven(5));
 
 // Problem 3: Find the Largest of Three Numbers  [Easy]
 // Description: Write a function largest(a, b, c) that returns the largest of three numbers.
